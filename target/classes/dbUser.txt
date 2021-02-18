@@ -1,0 +1,5 @@
+general,sha1:64000:18:RSnor26nPP7mRLAScvBB0OFvyZtNMuoW:sMx5kC5DypRr70qAXswRBUPB,General
+admin,sha1:64000:18:uUc8rO5ohYu5OdymP6bb4LnOlqYs/Q+X:OYUQJBG5hfdm2+j3MA47Nvv4,Admin
+General,sha1:64000:18:3lDnvc9KEh8d/3ZDkKIQpu/DFf6YwjZ+:sFIVnaJrJFFfkNINXnIk3CQp,General
+guest,sha1:64000:18:+lV/U6KQBopS9yy5cLB4QqyKpcmF5Be3:WPoqdTfNFr9OEK5mIuHu+H7Q,Guest
+Admin,sha1:64000:18:OIWtUpcuJPVNh8WmgrcYIKab+6ccIrV6:TYaWjRyt9Mp/5dIfTDztCDPO,Admin

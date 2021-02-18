@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>streaming.core.entity.DemographicGroup</OriginalElement>
+  <nodes>
+    <node x="86.19902025481224" y="1078.0">streaming.user.PasswordStorage</node>
+    <node x="736.5315674163237" y="1198.5">streaming.db.DbUtils</node>
+    <node x="295.94902025481224" y="2499.0">streaming.user.TestCaseReader</node>
+    <node x="265.19902025481224" y="1587.0">streaming.user.User</node>
+    <node x="1675.8735800953787" y="1730.5">streaming.core.util.Pair</node>
+    <node x="1942.995070038362" y="1209.5">streaming.core.entity.DemographicGroup</node>
+    <node x="0.0" y="638.0">streaming.user.PasswordStorage.InvalidHashException</node>
+    <node x="1225.245070038362" y="1786.0">streaming.core.event.EventFactory</node>
+    <node x="1185.4281926406925" y="559.5">streaming.core.event.Event</node>
+    <node x="979.5791666666665" y="3541.0">streaming.gui.AdminMainView</node>
+    <node x="1250.5710497835496" y="1254.0">streaming.core.event.Movie</node>
+    <node x="635.3555876711359" y="328.0">streaming.Instruction</node>
+    <node x="2283.120070038362" y="626.0">streaming.core.entity.Studio</node>
+    <node x="710.4374689842675" y="3175.0">streaming.Main</node>
+    <node x="1636.7377164502163" y="3053.0">streaming.gui.LoginPage</node>
+    <node x="483.5315674163237" y="1176.5">streaming.user.Role</node>
+    <node x="2391.679593847886" y="2487.5">streaming.gui.StdoutToTextAreaStream</node>
+    <node x="1160.5746663059158" y="0.0">streaming.core.event.EventType</node>
+    <node x="225.0" y="638.0">streaming.user.PasswordStorage.CannotPerformOperationException</node>
+    <node x="1796.02880195685" y="0.5">streaming.core.entity.Entity</node>
+    <node x="1815.495070038362" y="592.5">streaming.core.entity.Stream</node>
+    <node x="1474.5710497835496" y="1254.0">streaming.core.event.PPV</node>
+    <node x="1385.7377164502163" y="2943.0">streaming.gui.AdminPage</node>
+    <node x="1000.3291666666665" y="3164.0">streaming.gui.PageViewer</node>
+    <node x="1137.151668470418" y="2179.0">streaming.AdminSystem</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="streaming.user.PasswordStorage.CannotPerformOperationException" target="streaming.user.PasswordStorage">
+      <point x="0.0" y="15.0" />
+      <point x="370.0" y="1058.0" />
+      <point x="343.44902025481224" y="1058.0" />
+      <point x="110.25" y="-214.5" />
+    </edge>
+    <edge source="streaming.user.PasswordStorage.InvalidHashException" target="streaming.user.PasswordStorage">
+      <point x="68.33333333333348" y="15.0" />
+      <point x="170.83333333333348" y="1058.0" />
+      <point x="196.44902025481224" y="1058.0" />
+      <point x="-36.75" y="-214.5" />
+    </edge>
+    <edge source="streaming.core.entity.Stream" target="streaming.core.entity.Entity">
+      <point x="47.5" y="-60.5" />
+      <point x="1957.995070038362" y="308.0" />
+      <point x="1901.2106201386682" y="308.0" />
+      <point x="16.181818181818244" y="93.5" />
+    </edge>
+    <edge source="streaming.core.entity.Studio" target="streaming.core.entity.Entity">
+      <point x="38.25" y="-27.0" />
+      <point x="2397.870070038362" y="268.0" />
+      <point x="1965.9378928659407" y="268.0" />
+      <point x="80.90909090909088" y="93.5" />
+    </edge>
+    <edge source="streaming.core.event.PPV" target="streaming.core.event.Event">
+      <point x="-76.75" y="-38.5" />
+      <point x="1551.3210497835496" y="998.0" />
+      <point x="1327.499621212121" y="998.0" />
+      <point x="65.57142857142844" y="93.5" />
+    </edge>
+    <edge source="streaming.core.event.Movie" target="streaming.core.event.Event">
+      <point x="-17.0" y="-38.5" />
+      <point x="1335.5710497835496" y="1018.0" />
+      <point x="1283.7853354978356" y="1018.0" />
+      <point x="21.85714285714289" y="93.5" />
+    </edge>
+    <edge source="streaming.core.entity.DemographicGroup" target="streaming.core.entity.Entity">
+      <point x="139.5" y="-83.0" />
+      <point x="2268.495070038362" y="1058.0" />
+      <point x="2227.495070038362" y="1058.0" />
+      <point x="2227.495070038362" y="288.0" />
+      <point x="1933.5742565023047" y="288.0" />
+      <point x="48.54545454545462" y="93.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.16657977059436913" x="1306.0" y="1908.0" />
+  <SelectedNodes>
+    <node>streaming.core.entity.DemographicGroup</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
